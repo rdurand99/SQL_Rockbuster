@@ -35,4 +35,5 @@ The dataset comprises a database with the following tables:
 You can find my visualizations on [Tableau](https://public.tableau.com/app/profile/rachel.durand).
 
 ## Resources
+- Rockbuster Stealth Data Analysis, [Data Dictionary](https://docs.google.com/document/d/13EWaWFU8gZYxSSNQUHAV8zqQarR0ghWg1PyPK-Pu6s4/edit?usp=sharing)
 Relevant resources will be posted here.
