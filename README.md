@@ -36,6 +36,3 @@ You can find my visualizations on [Tableau](https://public.tableau.com/app/profi
 
 ## Resources
 Relevant resources will be posted here.
-
-- Rockbuster Stealth Data Analysis, [Data Dictionary](https://docs.google.com/document/d/13EWaWFU8gZYxSSNQUHAV8zqQarR0ghWg1PyPK-Pu6s4/edit?usp=sharing)
-- Rockbuster Stealth Data Analysis, [PPT](https://docs.google.com/presentation/d/19MT3nQodiNboNFJ7jfovGO5fzwBv54vd/edit?usp=sharing&ouid=113069520067167781419&rtpof=true&sd=true)
