@@ -1,0 +1,26 @@
+SQL CTE Query
+- Used to find the average rental duration of movie genres.
+
+WITH average_rental_duration_cte (rental_duration)
+AS
+    (SELECT C.name AS genre,
+        AVG(rental_duration) AS "Average Rental Duration"
+        FROM film A
+        INNER JOIN film_category B on A.film_id = B.film_id
+        INNER JOIN public.category C on B.category_id = C.category_id
+    GROUP BY genre
+    ORDER BY "Average Rental Duration" DESC)
+
+- Used to find the top 10 countries per customer numbers.
+
+WITH top10_countries_customers_cte (country, customer_id)
+AS
+    (SELECT D.country, COUNT(customer_id) AS "Number of Customers"
+        FROM customer A
+        INNER JOIN address B on A. address_id = B.address_id
+        INNER JOIN city C on B. city_id = C.city_id
+        INNER JOIN country D on C. country_id = D. country_id
+    GROUP BY country
+    ORDER BY COUNT(customer_id) DESC
+    LIMIT 10)
+
