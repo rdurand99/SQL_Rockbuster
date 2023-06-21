@@ -1,0 +1,24 @@
+SQL with Multiple Joins
+- Used to find the top 10 movies by high versus low revenue.
+
+- Top 10 Movies by High Revenue
+SELECT D.title, 
+	SUM(A.amount) AS revenue
+	FROM payment A
+	INNER JOIN rental B. on A.rental_id = B.rental_id
+	INNER JOIN inventory C on B. inventory_id = C.inventory_id
+	INNER JOIN film D on C.film_id - D.film_id
+GROUP BY D.title
+ORDER BY revenue DESC
+LIMIT 10
+
+- Top 10 Movies by Low Revenue
+SELECT D.title, 
+	SUM(A.amount) AS revenue
+	FROM payment A
+	INNER JOIN rental B. on A.rental_id = B.rental_id
+	INNER JOIN inventory C on B. inventory_id = C.inventory_id
+	INNER JOIN film D on C.film_id - D.film_id
+GROUP BY D.title
+ORDER BY revenue ASC
+LIMIT 10
