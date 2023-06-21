@@ -23,4 +23,3 @@ AS
     GROUP BY country
     ORDER BY COUNT(customer_id) DESC
     LIMIT 10)
-
