@@ -32,7 +32,5 @@ The dataset comprises a database with the following tables:
 -  city
 -  country
 
-You can find my visualizations on [Tableau](https://public.tableau.com/app/profile/rachel.durand).
-
 ## Resources
 Relevant resources will be posted here.
