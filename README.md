@@ -32,7 +32,7 @@ The dataset comprises a database with the following tables:
 -  city
 -  country
 
-- You can find my visualizations on [Tableau]([https://public.tableau.com/app/profile/rachel.durand](https://public.tableau.com/views/RockbusterStealthTableau/RockbusterStealth?:language=en-US&:display_count=n&:origin=viz_share_link)https://public.tableau.com/views/RockbusterStealthTableau/RockbusterStealth?:language=en-US&:display_count=n&:origin=viz_share_link).
+- You can find my visualizations on [Tableau](https://public.tableau.com/app/profile/rachel.durand/viz/RockbusterStealthTableau/RockbusterStealth).
 
 ## Resources
 Relevant resources will be posted here.
